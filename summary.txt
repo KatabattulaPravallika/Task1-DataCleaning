@@ -1,0 +1,18 @@
+Task 1: Data Cleaning and Preprocessing
+
+Dataset: Customer Personality Analysis
+
+Steps Performed:
+
+1. Loaded the dataset using Pandas.
+2. Identified missing values using isnull().
+3. Found 24 missing values in the Income column.
+4. Filled missing Income values using the mean of the Income column.
+5. Checked for duplicate records using duplicated().
+6. No duplicate records were found.
+7. Standardized column names by converting them to lowercase.
+8. Converted Dt_Customer column to datetime format.
+9. Saved the cleaned dataset as cleaned_marketing_campaign.csv.
+
+Result:
+The dataset is cleaned and ready for analysis.
